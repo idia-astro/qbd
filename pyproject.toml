@@ -1,0 +1,35 @@
+[project]
+name = "qbd"
+version = "0.0.1"
+authors = [
+  { name="Lennart Heino"},
+]
+description = "Creates data cubes from FITS-file image data."
+readme = "README.md"
+requires-python = ">3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "astropy>=6.1.7",
+    "click>=8.1.8",
+    "numpy>=2.2.1",
+    "rich>=13.9.4",
+]
+
+[project.urls]
+Homepage = "https://qbd.lennartheino.de"
+Issues = "https://qbd.lennartheino.de/getting-help.html"
+
+[tool.uv.workspace]
+members = ["./"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project.scripts]
+qbd = "qbd:main"

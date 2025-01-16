@@ -1,8 +1,3 @@
-# Installation
- 
-``` bash
-pip install qbd
-```
 # Running `qbd`
 
 ## 1. Create demo data
