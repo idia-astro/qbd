@@ -1,8 +1,8 @@
 [project]
 name = "qbd"
-version = "0.0.1"
+version = "0.1.0"
 authors = [
-  { name="Lennart Heino"},
+  { name="L. Heino"},
 ]
 description = "Creates data cubes from FITS-file image data."
 readme = "README.md"
@@ -21,7 +21,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://qbd.lennartheino.de"
-Issues = "https://qbd.lennartheino.de/getting-help.html"
+Issues = "https://github.com/idia-astro/qbd/issues"
 
 [tool.uv.workspace]
 members = ["./"]
